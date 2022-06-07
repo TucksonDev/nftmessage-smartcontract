@@ -1,0 +1,12 @@
+# Hardhat folders
+artifacts
+cache
+
+# NPM folders
+node_modules
+
+# Environment variables
+.env
+
+# Custom files
+Notes.md
