@@ -13,9 +13,20 @@ This is part of an ongoing project to offer an interface from where to create an
 - All scripts are written in Typescript. Support libraries for Typescript are already in package.json
 
 # CLI instructions
-- `npx hardhat compile`: To compile the contract
-- `npx hardhat test ./tests/MessageNFTTest.ts`: To run the tests
-- `npx hardhat run ./scripts/deploy.ts --network [rinkeby|mainnet]`: To run the deploy script
+- `npm install` : To install all dependencies
+- `npx hardhat compile` : To compile the contract
+- `npx hardhat test ./tests/MessageNFTTest.ts` : To run the tests
+- `npx hardhat run ./scripts/deploy.ts --network [rinkeby|mainnet]` : To run the deploy script
+- `npx hardhat verify <ContractAddress> --network [rinkeby|mainnet]` : To initiate the verification process for Etherscan
+
+# Gas information
+- Deploying the contract costs 1,544,796 gas units
+- Minting 1 NFT costs around 130,648 - 181,948 gas units
+- Transferring 1 NFT costs around 43,574 - 60,674 gas units
+- Burning 1 NFT costs around 48,328 gas units
+
+# Example of deployed contract
+- Rinkeby: https://rinkeby.etherscan.io/address/0x4904a5D49DD25e68e89dd9654C757a05bD1790Ff
 
 # Dependencies
 - Libraries are specified in package.json
