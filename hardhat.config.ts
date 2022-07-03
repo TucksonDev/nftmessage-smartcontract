@@ -28,7 +28,7 @@ module.exports = {
       // Use these if network is volatile and want to make sure your txn goes through
       // https://hardhat.org/config/
       // gas, gasPrice, ... are measured in "wei" (without 'g')
-      gasPrice: 5000000000,
+      gasPrice: 5000000000, // 5 gwei
     },
     mainnet: {
       url: "https://eth-mainnet.alchemyapi.io/v2/" + process.env.ALCHEMY_MAINNET_KEY,
@@ -37,7 +37,7 @@ module.exports = {
       // Use these if network is volatile and want to make sure your txn goes through
       // https://hardhat.org/config/
       // gas, gasPrice, ... are measured in "wei" (without 'g')
-      gasPrice: 5000000000,
+      gasPrice: 25000000000,  // 25 gwei
     },
   },
 
