@@ -27,6 +27,7 @@ This is part of an ongoing project to offer an interface from where to create an
 
 # Example of deployed contract
 - Rinkeby: https://rinkeby.etherscan.io/address/0x4904a5D49DD25e68e89dd9654C757a05bD1790Ff
+- Mainnet: https://etherscan.io/address/0xc62E3F02ED11E4f95ff8c8FC451882378C2fdba5
 
 # Dependencies
 - Libraries are specified in package.json
